@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charmer ❤️ — Uma história para nós dois</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="heart-field"></canvas>
+<div class="thread-line-wrap" aria-hidden="true"><svg id="thread-line" viewBox="0 0 100 3000" preserveAspectRatio="none"></svg></div>
+
+<!-- progress dots nav -->
+<nav class="section-nav" aria-hidden="true">
+  <span class="dot" data-target="hero"></span>
+  <span class="dot" data-target="story"></span>
+  <span class="dot" data-target="reasons"></span>
+  <span class="dot" data-target="promises"></span>
+  <span class="dot" data-target="letter"></span>
+  <span class="dot" data-target="ask"></span>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="section hero">
+  <div class="hero-glow"></div>
+  <p class="eyebrow reveal">para uma pessoa em especial</p>
+  <h1 class="hero-title reveal">
+    <span class="hero-name">Charmer</span>
+    <span class="hero-heart">❤</span>
+  </h1>
+  <p class="hero-sub reveal">Eu fiz isso para você...</p>
+  <button class="btn btn-primary reveal" id="start-btn">
+    <span>Começar nossa história</span>
+    <span class="btn-shine"></span>
+  </button>
+  <div class="scroll-hint reveal">
+    <span class="scroll-line"></span>
+    <span>role para continuar</span>
+  </div>
+</section>
+
+<!-- ============ NOSSA HISTÓRIA ============ -->
+<section id="story" class="section story">
+  <p class="eyebrow reveal-up">capítulo um</p>
+  <h2 class="section-title reveal-up">Nossa história</h2>
+  <p class="lede reveal-up">
+    Às vezes a vida coloca pessoas especiais no nosso caminho quando menos esperamos.
+    E desde que você apareceu, algumas coisas começaram a fazer mais sentido.
+  </p>
+
+  <div class="timeline">
+    <!-- EDITÁVEL: adicione, remova ou edite os momentos abaixo livremente -->
+    <div class="moment reveal-up">
+      <span class="moment-date">o começo</span>
+      <h3>Quando tudo começou</h3>
+      <p>Descreva aqui como e quando vocês se conheceram — o lugar, o dia, a primeira impressão que ficou.</p>
+    </div>
+    <div class="moment reveal-up">
+      <span class="moment-date">um momento</span>
+      <h3>A primeira conversa que importou</h3>
+      <p>Conte sobre aquele instante em que a conversa deixou de ser apenas conversa.</p>
+    </div>
+    <div class="moment reveal-up">
+      <span class="moment-date">uma lembrança</span>
+      <h3>O dia que você não esquece</h3>
+      <p>Um momento marcante — um encontro, uma mensagem, uma risada — que ficou guardado.</p>
+    </div>
+    <div class="moment reveal-up">
+      <span class="moment-date">hoje</span>
+      <h3>Onde estamos agora</h3>
+      <p>E é aqui, neste momento, escrevendo isso para você, que eu percebo o quanto quero continuar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MOTIVOS ============ -->
+<section id="reasons" class="section reasons">
+  <p class="eyebrow reveal-up">capítulo dois</p>
+  <h2 class="section-title reveal-up">Motivos pelos quais eu gosto de você</h2>
+  <p class="lede reveal-up">Nem tudo cabe em palavras, mas eu tentei colocar alguns em cartas.</p>
+
+  <div class="cards">
+    <div class="card reveal-up">
+      <span class="card-mark">01</span>
+      <p>Seu sorriso muda o meu dia.</p>
+    </div>
+    <div class="card reveal-up">
+      <span class="card-mark">02</span>
+      <p>Seu jeito me conquista cada vez mais.</p>
+    </div>
+    <div class="card reveal-up">
+      <span class="card-mark">03</span>
+      <p>Você faz meus momentos serem melhores.</p>
+    </div>
+    <div class="card reveal-up">
+      <span class="card-mark">04</span>
+      <p>Eu amo a pessoa que você é.</p>
+    </div>
+    <div class="card reveal-up">
+      <span class="card-mark">05</span>
+      <p>Do seu jeito, você tornou tudo mais leve.</p>
+    </div>
+    <div class="card reveal-up">
+      <span class="card-mark">06</span>
+      <p>Perto de você, eu quero ser melhor.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROMESSAS ============ -->
+<section id="promises" class="section promises">
+  <p class="eyebrow reveal-up">capítulo três</p>
+  <h2 class="section-title reveal-up">O que eu prometo a você</h2>
+  <p class="lede reveal-up">Ainda não temos fotos guardadas juntos — mas isso é só o começo. Aqui estão algumas promessas para os capítulos que vêm por aí.</p>
+
+  <!-- EDITÁVEL: adicione, remova ou edite as promessas abaixo livremente -->
+  <div class="vows">
+    <div class="vow reveal-up">
+      <span class="vow-heart">❤</span>
+      <p>Fazer você rir até nos dias mais difíceis.</p>
+    </div>
+    <div class="vow reveal-up">
+      <span class="vow-heart">❤</span>
+      <p>Estar presente nas pequenas coisas do dia a dia.</p>
+    </div>
+    <div class="vow reveal-up">
+      <span class="vow-heart">❤</span>
+      <p>Construir memórias novas, uma de cada vez, com você.</p>
+    </div>
+    <div class="vow reveal-up">
+      <span class="vow-heart">❤</span>
+      <p>Escolher você de novo, todos os dias.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CARTA ============ -->
+<section id="letter" class="section letter">
+  <p class="eyebrow reveal-up">capítulo quatro</p>
+  <h2 class="section-title reveal-up">Uma carta para você</h2>
+
+  <div class="letter-card reveal-up">
+    <p class="letter-drop">Charmer,</p>
+    <p>eu não sei exatamente quando aconteceu, mas em algum momento você deixou de ser apenas alguém especial e começou a ser alguém que eu quero ter sempre por perto.</p>
+    <p>Cada conversa, cada sorriso e cada momento com você fazem eu perceber o quanto você é importante para mim.</p>
+    <p>E é por isso que eu quis criar algo assim — porque você merece mais do que palavras ditas de qualquer jeito. Você merece um momento pensado só para você.</p>
+    <p class="letter-sign">— com carinho, de quem escreveu tudo isso pensando em você.</p>
+  </div>
+</section>
+
+<!-- ============ PEDIDO FINAL ============ -->
+<section id="ask" class="section ask">
+  <div class="ask-glow"></div>
+  <div id="ask-stage">
+    <p class="eyebrow ask-fade" style="--d:0">capítulo final</p>
+    <h2 class="ask-title ask-fade" style="--d:1">Charmer<span class="ask-dots">...</span></h2>
+    <p class="ask-text ask-fade" style="--d:2">
+      Eu quero continuar criando momentos com você.<br>
+      Quero estar ao seu lado, cuidar de você e fazer parte da sua vida.
+    </p>
+    <p class="ask-question ask-fade" style="--d:3">Você aceita namorar comigo? <span class="heart-inline">❤</span></p>
+
+    <div class="ask-buttons ask-fade" style="--d:4">
+      <button class="btn btn-primary" id="yes-btn" type="button">Sim</button>
+      <button class="btn btn-ghost" id="no-btn" type="button">Não</button>
+    </div>
+    <p id="no-note" class="no-note">Sem pressa — eu vou estar aqui esperando.</p>
+  </div>
+
+  <div id="celebration" class="celebration" hidden>
+    <div class="celebration-inner">
+      <span class="big-heart">❤</span>
+      <h2>Charmer, a partir de agora todo capítulo começa com nós dois</h2>
+      <p>Guarda esse dia — é só o primeiro "sim" de muitos que a gente ainda vai escrever.</p>
+    </div>
+  </div>
+</section>
+
+<canvas id="confetti-canvas"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
